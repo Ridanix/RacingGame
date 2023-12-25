@@ -2,7 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CarController
-    - Readme
+    - LapManager
+    - MainMenuScript
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -66,6 +67,17 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.WaterRendering
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.VisualEffectGraph.Runtime.dll:
     - UnityEngine.VFX.VFXRuntimeResources
     UnityEditor.TestRunner.dll:
@@ -87,6 +99,14 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
   serializedClasses:
     Assembly-CSharp:
     - WheelColliders
@@ -187,11 +207,31 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.WindOrientationParameter
     - UnityEngine.Rendering.HighDefinition.WindParameter/WindParamaterValue
     - UnityEngine.Rendering.HighDefinition.WindSpeedParameter
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger/Entry
     - UnityEngine.EventSystems.EventTrigger/TriggerEvent
@@ -206,6 +246,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuScript
+    methodName: OnSecretClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuScript
+    methodName: PlayGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuScript
+    methodName: QuitGame
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
@@ -246,7 +295,162 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/SampleScene.unity:
+    Assets/Scenes/MainMenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1868}
+    - Class: 114
+      Script: {instanceID: 1870}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 1874}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 1910}
+    - Class: 114
+      Script: {instanceID: 1966}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2612}
+    - Class: 114
+      Script: {instanceID: 2986}
+    - Class: 114
+      Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 3536}
+    - Class: 114
+      Script: {instanceID: 3676}
+    - Class: 114
+      Script: {instanceID: 4218}
+    - Class: 114
+      Script: {instanceID: 4268}
+    - Class: 114
+      Script: {instanceID: 5030}
+    - Class: 114
+      Script: {instanceID: 5072}
+    - Class: 114
+      Script: {instanceID: 5124}
+    - Class: 114
+      Script: {instanceID: 5184}
+    - Class: 114
+      Script: {instanceID: 5352}
+    - Class: 114
+      Script: {instanceID: 5370}
+    - Class: 114
+      Script: {instanceID: 5820}
+    - Class: 114
+      Script: {instanceID: 5828}
+    - Class: 114
+      Script: {instanceID: 5902}
+    - Class: 114
+      Script: {instanceID: 6018}
+    - Class: 114
+      Script: {instanceID: 6100}
+    - Class: 114
+      Script: {instanceID: 6488}
+    - Class: 114
+      Script: {instanceID: 6540}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 114
+      Script: {instanceID: 8316}
+    - Class: 114
+      Script: {instanceID: 8376}
+    - Class: 114
+      Script: {instanceID: 8444}
+    - Class: 114
+      Script: {instanceID: 8524}
+    - Class: 114
+      Script: {instanceID: 8694}
+    - Class: 114
+      Script: {instanceID: 8876}
+    - Class: 114
+      Script: {instanceID: 9550}
+    - Class: 114
+      Script: {instanceID: 9614}
+    - Class: 114
+      Script: {instanceID: 9874}
+    - Class: 114
+      Script: {instanceID: 9980}
+    - Class: 114
+      Script: {instanceID: 10248}
+    - Class: 114
+      Script: {instanceID: 10324}
+    - Class: 114
+      Script: {instanceID: 10924}
+    - Class: 114
+      Script: {instanceID: 10988}
+    - Class: 114
+      Script: {instanceID: 11168}
+    - Class: 114
+      Script: {instanceID: 11392}
+    - Class: 114
+      Script: {instanceID: 11704}
+    - Class: 114
+      Script: {instanceID: 11842}
+    - Class: 114
+      Script: {instanceID: 11924}
+    - Class: 114
+      Script: {instanceID: 11936}
+    - Class: 114
+      Script: {instanceID: 12022}
+    - Class: 114
+      Script: {instanceID: 12146}
+    - Class: 114
+      Script: {instanceID: 12278}
+    - Class: 114
+      Script: {instanceID: 12562}
+    - Class: 114
+      Script: {instanceID: 13382}
+    - Class: 114
+      Script: {instanceID: 37168}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -278,117 +482,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1966}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 4218}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 1852}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 5170}
     - Class: 114
-      Script: {instanceID: 1938}
+      Script: {instanceID: 5828}
     - Class: 114
-      Script: {instanceID: 2000}
+      Script: {instanceID: 6004}
     - Class: 114
-      Script: {instanceID: 2368}
+      Script: {instanceID: 6890}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 7502}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 8694}
     - Class: 114
-      Script: {instanceID: 3440}
+      Script: {instanceID: 8876}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 9198}
     - Class: 114
-      Script: {instanceID: 3648}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 4190}
+      Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 4254}
-    - Class: 114
-      Script: {instanceID: 4780}
-    - Class: 114
-      Script: {instanceID: 4964}
-    - Class: 114
-      Script: {instanceID: 5002}
-    - Class: 114
-      Script: {instanceID: 5044}
-    - Class: 114
-      Script: {instanceID: 5096}
-    - Class: 114
-      Script: {instanceID: 5142}
-    - Class: 114
-      Script: {instanceID: 5156}
-    - Class: 114
-      Script: {instanceID: 5324}
-    - Class: 114
-      Script: {instanceID: 5342}
-    - Class: 114
-      Script: {instanceID: 5792}
-    - Class: 114
-      Script: {instanceID: 5874}
-    - Class: 114
-      Script: {instanceID: 5976}
-    - Class: 114
-      Script: {instanceID: 5990}
-    - Class: 114
-      Script: {instanceID: 6072}
-    - Class: 114
-      Script: {instanceID: 6460}
-    - Class: 114
-      Script: {instanceID: 6512}
-    - Class: 114
-      Script: {instanceID: 6862}
-    - Class: 114
-      Script: {instanceID: 7348}
-    - Class: 114
-      Script: {instanceID: 7474}
-    - Class: 114
-      Script: {instanceID: 8348}
-    - Class: 114
-      Script: {instanceID: 8496}
-    - Class: 114
-      Script: {instanceID: 8848}
-    - Class: 114
-      Script: {instanceID: 9170}
-    - Class: 114
-      Script: {instanceID: 9522}
-    - Class: 114
-      Script: {instanceID: 9586}
-    - Class: 114
-      Script: {instanceID: 9846}
-    - Class: 114
-      Script: {instanceID: 9952}
-    - Class: 114
-      Script: {instanceID: 10220}
-    - Class: 114
-      Script: {instanceID: 10896}
-    - Class: 114
-      Script: {instanceID: 11140}
-    - Class: 114
-      Script: {instanceID: 11364}
-    - Class: 114
-      Script: {instanceID: 11676}
-    - Class: 114
-      Script: {instanceID: 11814}
-    - Class: 114
-      Script: {instanceID: 11908}
-    - Class: 114
-      Script: {instanceID: 11994}
-    - Class: 114
-      Script: {instanceID: 12118}
-    - Class: 114
-      Script: {instanceID: 12250}
-    - Class: 114
-      Script: {instanceID: 12534}
-    - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 70430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -398,8 +524,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -1178,7 +1302,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 7bf9f9f16e2381b487389c83753dcb13
+      Hash: 8f7dea633ea16bfe19b67a11c9df2d03
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CarController
@@ -2154,7 +2278,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime
     namespaceName: UnityEngine.VFX.Utility
     className: VFXInputAxisBinder
+  - hash:
+      serializedVersion: 2
+      Hash: 1168dcdfc212c15e676efd64e87bf181
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuScript
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1eb4888a12b1bf1866536d82b07762
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LapManager
   platform: 19
   scenePathNames:
-  - Assets/SampleScene.unity
-  playerPath: C:/Users/marek/Desktop/BuildRacingGame/RacingGameMAP.exe
+  - Assets/Scenes/MainMenuScene.unity
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/marek/Desktop/MAP2/Build/RacingGameMAP.exe
