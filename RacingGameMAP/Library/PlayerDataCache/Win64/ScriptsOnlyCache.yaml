@@ -377,63 +377,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6100}
     - Class: 114
-      Script: {instanceID: 6488}
+      Script: {instanceID: 6490}
     - Class: 114
-      Script: {instanceID: 6540}
+      Script: {instanceID: 6542}
     - Class: 114
-      Script: {instanceID: 7376}
+      Script: {instanceID: 7378}
     - Class: 114
-      Script: {instanceID: 8316}
+      Script: {instanceID: 8318}
     - Class: 114
-      Script: {instanceID: 8376}
+      Script: {instanceID: 8378}
     - Class: 114
-      Script: {instanceID: 8444}
+      Script: {instanceID: 8446}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8694}
+      Script: {instanceID: 8696}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 9550}
+      Script: {instanceID: 9552}
     - Class: 114
-      Script: {instanceID: 9614}
+      Script: {instanceID: 9616}
     - Class: 114
-      Script: {instanceID: 9874}
+      Script: {instanceID: 9876}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 9982}
     - Class: 114
-      Script: {instanceID: 10248}
+      Script: {instanceID: 10250}
     - Class: 114
-      Script: {instanceID: 10324}
+      Script: {instanceID: 10326}
     - Class: 114
-      Script: {instanceID: 10924}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10990}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11356}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11396}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12022}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12562}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 13382}
+      Script: {instanceID: 12566}
     - Class: 114
-      Script: {instanceID: 37168}
+      Script: {instanceID: 13386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -500,21 +500,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6004}
     - Class: 114
-      Script: {instanceID: 6890}
+      Script: {instanceID: 6170}
     - Class: 114
-      Script: {instanceID: 7502}
+      Script: {instanceID: 6892}
     - Class: 114
-      Script: {instanceID: 8694}
+      Script: {instanceID: 7504}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8696}
     - Class: 114
-      Script: {instanceID: 9198}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 9200}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 10990}
     - Class: 114
-      Script: {instanceID: 70430}
+      Script: {instanceID: 11928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1174,6 +1174,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1eb4888a12b1bf1866536d82b07762
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LapManager
   - hash:
       serializedVersion: 2
       Hash: 6076385a1a65434904339caa7217aa34
@@ -1974,6 +1980,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFloatField
   - hash:
       serializedVersion: 2
+      Hash: 1168dcdfc212c15e676efd64e87bf181
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuScript
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -2278,20 +2290,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime
     namespaceName: UnityEngine.VFX.Utility
     className: VFXInputAxisBinder
-  - hash:
-      serializedVersion: 2
-      Hash: 1168dcdfc212c15e676efd64e87bf181
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenuScript
-  - hash:
-      serializedVersion: 2
-      Hash: 7e1eb4888a12b1bf1866536d82b07762
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LapManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/marek/Desktop/MAP2/Build/RacingGameMAP.exe
+  playerPath: C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP.exe
