@@ -317,6 +317,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Game/CarController.cs"
 "Assets/Scripts/Game/LapManager.cs"
+"Assets/Scripts/IntroScene/IntroSkipScript.cs"
 "Assets/Scripts/MainMenu/MainMenuScript.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
