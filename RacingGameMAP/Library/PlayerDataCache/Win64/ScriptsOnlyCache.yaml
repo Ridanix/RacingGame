@@ -75,6 +75,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -107,7 +108,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
   serializedClasses:
     Assembly-CSharp:
     - WheelColliders
@@ -218,6 +221,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -295,6 +303,27 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: GoBackButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: DriverCreatedButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: licenceGrantedClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: GoBackButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: CreateNewDriverButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: SandBoxButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: IntroSkipScript
+    methodName: SavedDriverButtonClicked
   sceneClasses:
     Assets/Scenes/GameIntroScene.unity:
     - Class: 1
@@ -303,33 +332,65 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1870}
+    - Class: 114
       Script: {instanceID: 1872}
     - Class: 114
+      Script: {instanceID: 1910}
+    - Class: 114
       Script: {instanceID: 1966}
+    - Class: 114
+      Script: {instanceID: 2028}
     - Class: 114
       Script: {instanceID: 3958}
     - Class: 114
       Script: {instanceID: 4220}
     - Class: 114
+      Script: {instanceID: 5830}
+    - Class: 114
+      Script: {instanceID: 8448}
+    - Class: 114
       Script: {instanceID: 8698}
     - Class: 114
       Script: {instanceID: 8880}
     - Class: 114
+      Script: {instanceID: 10122}
+    - Class: 114
+      Script: {instanceID: 10808}
+    - Class: 114
+      Script: {instanceID: 10992}
+    - Class: 114
       Script: {instanceID: 11930}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -908,7 +969,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c425c2104ac2dca6c026c0c9a283cf50
+      Hash: 22b1694358b1cf89643c44d4c6efbd64
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: IntroSkipScript

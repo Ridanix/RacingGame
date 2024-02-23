@@ -39,7 +39,7 @@ public class CarController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E) && currentGear < 5)
         {
-
+        
             currentGear = currentGear + 1;
         }
         if (currentRPM > redLineRPM) currentRPMText.color = Color.red;

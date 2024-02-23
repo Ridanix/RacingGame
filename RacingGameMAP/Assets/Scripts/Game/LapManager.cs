@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LapManager : MonoBehaviour
 {
@@ -15,12 +16,16 @@ public class LapManager : MonoBehaviour
     public TMP_Text lapCounterText;
     void Start()
     {
-        
+     PlayerPrefs.SetInt("BeenInGame", 1);
     }
 
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(1);
+        }
         lapCounterText.text = currentLap.ToString();
         lapTimeFunctionText.text = lapTime.ToString("0:00");
         if (lapStarted == true)
