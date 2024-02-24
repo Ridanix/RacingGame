@@ -10,6 +10,7 @@ public class CarController : MonoBehaviour
     public AnimationCurve steeringCurve;
     public AnimationCurve hpToCurrentRPMCurve;
     public int currentGear;
+    public int currentGearMax;
     public float brakePower;
     public float brakeInput;
     public float slipAngle;
@@ -37,7 +38,7 @@ public class CarController : MonoBehaviour
         {
             currentGear = currentGear - 1;
         }
-        if (Input.GetKeyDown(KeyCode.E) && currentGear < 5)
+        if (Input.GetKeyDown(KeyCode.E) && currentGear < currentGearMax)
         {
         
             currentGear = currentGear + 1;

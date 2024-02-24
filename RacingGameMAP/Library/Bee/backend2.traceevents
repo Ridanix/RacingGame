@@ -1,404 +1,420 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1708728141956799, "dur":19737, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728141976543, "dur":133, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728141976707, "dur":444, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728141978865, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1708728141977171, "dur":4097, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728141981270, "dur":3412545, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728145393816, "dur":462, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728145394336, "dur":50, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728145394539, "dur":2225, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1708728141977251, "dur":4022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1708728141981275, "dur":6097, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1708728141988253, "dur":684, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1708728141988942, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728141989063, "dur":4936, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1708728141994000, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1708728141994221, "dur":3403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708728141988941, "dur":8835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728141998202, "dur":128723, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728142131967, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728142131966, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728142132082, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708728142133041, "dur":3260779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728141977285, "dur":3999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728141981286, "dur":1446, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728141982732, "dur":4662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728141987421, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1708728141987396, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1708728141987682, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728142049099, "dur":81, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708728142049200, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1708728142053801, "dur":4375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1708728142058229, "dur":3335603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728141977276, "dur":4001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728141981281, "dur":1396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728141982678, "dur":4704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728141987389, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1708728141987581, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142003000, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1708728142004644, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142006119, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142007738, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142009225, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142009324, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142012157, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142012244, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142013505, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142015098, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142015187, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142016974, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142017067, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142019131, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142019262, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142021209, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142021278, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142023608, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142023707, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142025569, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142025648, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142027641, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142027838, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142030071, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142030249, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142032516, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142032731, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142035637, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142035635, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142035803, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708728142035903, "dur":32492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708728142068463, "dur":3325367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728141977316, "dur":3972, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728141981290, "dur":1417, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728141982707, "dur":4681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728141987391, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1708728141987617, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142030242, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1708728142031822, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142031975, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708728142034252, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142034446, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708728142037434, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142037532, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708728142040508, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142040625, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708728142044265, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1708728142048514, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708728142048679, "dur":5759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1708728142054534, "dur":3339273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708728141977338, "dur":3955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708728141981296, "dur":1443, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708728141982739, "dur":4656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708728141987397, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1708728141987643, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708728142047866, "dur":6478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1708728142054427, "dur":3339381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708728141977363, "dur":3935, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708728141981300, "dur":1473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708728141982773, "dur":4608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708728141987430, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1708728141987383, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1708728141987660, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708728142045173, "dur":6900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1708728142052181, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1708728142057054, "dur":3336767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728141977401, "dur":3902, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728141981305, "dur":1464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728141982770, "dur":4630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728141987400, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1708728141987631, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728142036413, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1708728142039019, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728142039109, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708728142041745, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708728142041845, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708728142045386, "dur":16363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1708728142061827, "dur":3331996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728141977427, "dur":3884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728141981313, "dur":1414, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728141982727, "dur":4649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728141987398, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1708728141987383, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1708728141987606, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142009340, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1708728142010709, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142010842, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142012642, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142012741, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142014210, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142014284, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142016298, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142016394, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142018547, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142020515, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142020613, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142023002, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142023128, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142025230, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142025325, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142027248, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142027399, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142029968, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142030098, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142032408, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142032516, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142035029, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142038652, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708728142038745, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708728142042643, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1708728142049313, "dur":8571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1708728142057975, "dur":3335849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728141977451, "dur":3865, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728141981318, "dur":1574, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728141982892, "dur":4499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728141987393, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1708728141987622, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142024661, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1708728142026046, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142026201, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142028379, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142028462, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142030494, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142030574, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142032935, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142033018, "dur":2924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142036015, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142036206, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142038752, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142041614, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142039071, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142041809, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708728142041937, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708728142045548, "dur":8186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1708728142053807, "dur":3340002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728141977474, "dur":3846, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728141981322, "dur":184, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728141981507, "dur":5891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728141987417, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1708728141987399, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1708728141987628, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728142035844, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1708728142038936, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728142039068, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708728142042623, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728142042729, "dur":5873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708728142051635, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708728142048949, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":10, "ts":1708728142051803, "dur":5434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/level2" }}
-,{ "pid":12345, "tid":10, "ts":1708728142057296, "dur":3336548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728141977504, "dur":3821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728141981326, "dur":6052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728141987384, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1708728141987561, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728141997333, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1708728141998647, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":11, "ts":1708728141998646, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP.exe" }}
-,{ "pid":12345, "tid":11, "ts":1708728141998755, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP.exe" }}
-,{ "pid":12345, "tid":11, "ts":1708728142000200, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142000477, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142003814, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142006495, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142006593, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142008722, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142010259, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142012221, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142012292, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142013747, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142013831, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142015747, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142016016, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142017655, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142017750, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142019824, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142019923, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142021902, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142021999, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142023786, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142023899, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142026205, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142026307, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142028820, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142029004, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142031117, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142031203, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142033596, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142033690, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142036744, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142036820, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142039401, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142042214, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142039475, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142042416, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142042494, "dur":98, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142042597, "dur":5681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708728142048363, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708728142048471, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1708728142053709, "dur":22712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1708728142076470, "dur":3317363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728141977534, "dur":3797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728141981331, "dur":6048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728141987384, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1708728141987555, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728141992978, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1708728141994579, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1708728141994845, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1708728141995934, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1708728141996039, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728141996126, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1708728141997625, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728141997623, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728141997955, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728141999115, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1708728141999537, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1708728142002586, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142002784, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142005562, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142006859, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142008610, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142010126, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142010214, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142011521, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142011675, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142013044, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142013125, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142016478, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142016556, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142018795, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142018920, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142020770, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142022860, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142020894, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142023001, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142023131, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142025404, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142025525, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142027363, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142027529, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142029809, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142030010, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142031989, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142032074, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142034715, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142034795, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142037957, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142038284, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142040914, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708728142041025, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708728142043854, "dur":6039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1708728142050066, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/resources.assets" }}
-,{ "pid":12345, "tid":12, "ts":1708728142055820, "dur":3338021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141977556, "dur":3779, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141981335, "dur":6038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141987388, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141987516, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141989469, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/app.info" }}
-,{ "pid":12345, "tid":13, "ts":1708728141991603, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1708728141992555, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1708728141993961, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141993959, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141994086, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728141994369, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141995609, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141995608, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141995770, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1708728141996940, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1708728141997362, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1708728141998584, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728141998582, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728141998837, "dur":7164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142006186, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142007690, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142008913, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142008982, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142010739, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142010846, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142012561, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142012644, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142013987, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142014050, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142016300, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142016389, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142017945, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142018043, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142020140, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142020277, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142022336, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142022449, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142024129, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142024247, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142026517, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142026742, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142029213, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142029336, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142031419, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142031546, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142033969, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142034044, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142037502, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142037579, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142040138, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708728142040296, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708728142043582, "dur":33072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":13, "ts":1708728142076694, "dur":3317137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708728141977581, "dur":3759, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708728141981340, "dur":6045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708728141987427, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1708728141987389, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1708728141987667, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708728142046261, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1708728142052177, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/level1" }}
-,{ "pid":12345, "tid":14, "ts":1708728142057564, "dur":3336247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708728141977602, "dur":3742, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708728141981344, "dur":6030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708728141987616, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141987742, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141987805, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualEffectGraph.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141987918, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141988262, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141988718, "dur":679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141989398, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141989673, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141990027, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141990209, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141990307, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141990396, "dur":582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141990979, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141991260, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141991374, "dur":3073, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708728141994508, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":15, "ts":1708728141994570, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\PackageCache\\com.unity.burst@1.8.9\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":15, "ts":1708728141987384, "dur":7290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":15, "ts":1708728141997115, "dur":3391158, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":15, "ts":1708728145392835, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728141977633, "dur":3715, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728141981349, "dur":6026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728141987400, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1708728141987383, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/BuildTesting/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1708728141987610, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142015173, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1708728142016993, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142017075, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142019497, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142019597, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142021472, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142021559, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142023557, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142023629, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142025971, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142026198, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142028864, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142029006, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142031209, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142031469, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142033946, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142034018, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142037080, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142037179, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142039922, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708728142040043, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708728142042777, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":16, "ts":1708728142046682, "dur":6061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":16, "ts":1708728142052934, "dur":21006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/BuildTesting/RacingGameMAP_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1708728142074008, "dur":3319820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708728145400175, "dur":1355, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1708800244539273, "dur":18836, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244558113, "dur":154, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244558318, "dur":492, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244558832, "dur":3319, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244562153, "dur":132245, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244694399, "dur":353, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244694918, "dur":2178, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708800244558890, "dur":3267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708800244562159, "dur":6272, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708800244569372, "dur":536, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1708800244569911, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570016, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570238, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570459, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570725, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570796, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244570876, "dur":568, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244571446, "dur":332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244571779, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244571896, "dur":3600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708800244569910, "dur":5716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708800244575877, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708800244576283, "dur":111756, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708800244693337, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708800244693336, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708800244693523, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708800244558917, "dur":3253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244562172, "dur":1495, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244563667, "dur":4778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244568446, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1708800244568684, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244588579, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1708800244589775, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244589843, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244591534, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244591656, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244593619, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244593695, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244595583, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244595882, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244597958, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244598100, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244600697, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244600867, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244603506, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244603590, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244606667, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244606762, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244610342, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244610419, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244614675, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708800244614797, "dur":4627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708800244619722, "dur":6799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1708800244626669, "dur":8358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1708800244635095, "dur":59297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244558908, "dur":3254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244562167, "dur":1568, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244563736, "dur":4713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244568450, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1708800244568687, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244596688, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1708800244598193, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244598306, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244601104, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244601222, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244604330, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244604563, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244607349, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244607493, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244611309, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244611590, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244615594, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708800244615673, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708800244620578, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1708800244625661, "dur":9139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1708800244634869, "dur":59532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708800244558939, "dur":3236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708800244562177, "dur":1658, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708800244563835, "dur":4601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708800244568489, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1708800244568442, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1708800244619148, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1708800244621497, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1708800244625935, "dur":7847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1708800244633933, "dur":60460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244558961, "dur":3218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244562182, "dur":1555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244563738, "dur":4712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244568476, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708800244568452, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708800244568695, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244609701, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708800244611277, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244611365, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708800244615053, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708800244615174, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708800244620632, "dur":7774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1708800244628518, "dur":7533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1708800244637587, "dur":56816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244558985, "dur":3199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244562187, "dur":1634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244563822, "dur":4618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244568443, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1708800244568577, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244573655, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1708800244574849, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1708800244575085, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1708800244576256, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1708800244576428, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1708800244577687, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244577686, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244578048, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244579581, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244583464, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244583707, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244585143, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244585228, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244586767, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244586858, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244589418, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244590672, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244590779, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244592847, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244592939, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244594923, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244596538, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244596605, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244599334, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244599431, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244602169, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244602269, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244605511, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244605653, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244608677, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244608746, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244612698, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244612789, "dur":5575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708800244618623, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708800244629841, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708800244621482, "dur":9630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708800244631279, "dur":5762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1708800244637145, "dur":57269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708800244559015, "dur":3174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708800244562191, "dur":1480, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708800244563671, "dur":4776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708800244568449, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1708800244568727, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708800244618238, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1708800244620072, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1708800244624462, "dur":8687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1708800244633268, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1708800244637767, "dur":56651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244559038, "dur":3156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244562197, "dur":1535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244563733, "dur":4720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244568453, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1708800244568710, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244603651, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1708800244605129, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244605468, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708800244608320, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244608429, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708800244612285, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244612395, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708800244616569, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244616666, "dur":6104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708800244622845, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244623053, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1708800244631255, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708800244631315, "dur":17730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1708800244649106, "dur":45300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244559067, "dur":3133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244562202, "dur":1672, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244563874, "dur":4564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244568443, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244568634, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244570256, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244572142, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708800244572778, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708800244573800, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244573799, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244573885, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244574209, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244575117, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244575115, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244575261, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1708800244576317, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708800244576422, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244576802, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708800244577862, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244577860, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244577942, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244578147, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244583233, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244584679, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244584747, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244586362, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244586429, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244588192, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244588441, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244590040, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244590199, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244593731, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244593919, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244596148, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244596221, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244598710, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244598923, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244601791, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244601877, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244604811, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244604906, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244607743, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244607856, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244611940, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244612009, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244616164, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708800244616237, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708800244622757, "dur":9032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1708800244631895, "dur":19007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1708800244650957, "dur":43443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244559090, "dur":3115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244562207, "dur":1210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244563417, "dur":5031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244568468, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1708800244568448, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1708800244568719, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244610267, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1708800244611701, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244611795, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708800244615819, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708800244615898, "dur":6333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708800244622317, "dur":14732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1708800244637147, "dur":57270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244559121, "dur":3090, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244562211, "dur":6221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244568453, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244568655, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244577898, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1708800244578790, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1708800244578922, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244579258, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1708800244581296, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244581369, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244584194, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244585522, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244585612, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244587037, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244587140, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244589539, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244591323, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244591390, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244593189, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244594831, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244594922, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244596916, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244597049, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244599513, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244599690, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244602355, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244602438, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244606028, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244606108, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244609691, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244609799, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244613686, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708800244613795, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708800244618522, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1708800244622709, "dur":10881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1708800244633672, "dur":60736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244559144, "dur":3072, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244562216, "dur":6228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244568498, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708800244568445, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708800244568721, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244604200, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708800244605693, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244605816, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708800244608933, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244609012, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708800244612980, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708800244613055, "dur":5045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708800244618364, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1708800244620737, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1708800244625558, "dur":8263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1708800244633903, "dur":60494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244559165, "dur":3056, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244562221, "dur":6212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244568697, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244568827, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244568895, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244569008, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244569367, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244569606, "dur":415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570022, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570240, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570537, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570674, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570735, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244570802, "dur":634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244571438, "dur":338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244571777, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244571906, "dur":3531, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244575491, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":13, "ts":1708800244575547, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\marek\\Documents\\GitHub\\RacingGame\\RacingGameMAP\\Library\\PackageCache\\com.unity.burst@1.8.9\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":13, "ts":1708800244568447, "dur":7169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":13, "ts":1708800244575617, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244576991, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244578084, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":13, "ts":1708800244578083, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP.exe" }}
+,{ "pid":12345, "tid":13, "ts":1708800244578146, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244578216, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP.exe" }}
+,{ "pid":12345, "tid":13, "ts":1708800244579782, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244582778, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244584267, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244586123, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244587529, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244587684, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244589420, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244589500, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244591204, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244591294, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244593407, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244593470, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244595533, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244595629, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244597682, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244597815, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244599738, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244599800, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244602591, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244602663, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244606017, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244606092, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244609211, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244609483, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244613648, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244613800, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708800244619037, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1708800244622757, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708800244622908, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1708800244629632, "dur":7795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1708800244637505, "dur":56890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244559200, "dur":3026, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244562226, "dur":6216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244568461, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1708800244568442, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1708800244584057, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1708800244585171, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244585235, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244586824, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244586895, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244588723, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244590369, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244590460, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244592056, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244592149, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244593879, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244593940, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244595794, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244595892, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244598358, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244598480, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244601432, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244601563, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244604554, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244604664, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244607736, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244607861, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244611424, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244611592, "dur":3798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244615462, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708800244615540, "dur":5611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708800244621247, "dur":29570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":14, "ts":1708800244650860, "dur":43560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244559226, "dur":3005, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244562231, "dur":6204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244568480, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708800244568442, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708800244568675, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244596004, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708800244597797, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244597862, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244599913, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244600068, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244602878, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244602999, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244606378, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244606498, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244610001, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244610120, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244614065, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708800244614204, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708800244618183, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":15, "ts":1708800244624000, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1708800244627889, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/level3" }}
+,{ "pid":12345, "tid":15, "ts":1708800244634170, "dur":60234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244559251, "dur":2984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244562235, "dur":6208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244568444, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1708800244568697, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244597239, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1708800244598572, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244598776, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244601633, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244601724, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244605378, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244605475, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244608509, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244608598, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244612472, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244612572, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/RacingGameMAP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244616752, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244616751, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marek/Desktop/MAP4/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244616873, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708800244616942, "dur":22476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marek/Desktop/MAP4/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708800244639552, "dur":54850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708800244700319, "dur":1467, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

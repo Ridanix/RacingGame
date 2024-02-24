@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/Scenes/KartScene.unity
+    guid: 95a20f869308266409552eba299c77e6
+  - enabled: 1
+    path: Assets/Scenes/FavoritScene.unity
+    guid: cb830efed35ecdd4b9685472d7a4181a
+  - enabled: 1
+    path: Assets/Scenes/FormulaScene.unity
+    guid: 30f915ee4f12e2a4391d9e64cea6d684
+  - enabled: 1
+    path: Assets/Scenes/SecretScene.unity
+    guid: 2f7ab6c822cd02549805974969eaba9b
   m_configObjects: {}

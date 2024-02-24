@@ -80,6 +80,12 @@ public class IntroSkipScript : MonoBehaviour
             OnIntroFinished(videoPlayer);
             //SceneManager.LoadScene(2);
         }
+        if (Input.GetKeyDown(KeyCode.P)){
+            PlayerPrefs.DeleteAll();
+            driverNameTextObject.SetActive(false);
+            driverSavedButtonObject.SetActive(false);
+        }
+      
     }
     void OnIntroFinished(VideoPlayer vp){
         canvasIntro.SetActive(false);
@@ -300,6 +306,23 @@ public class IntroSkipScript : MonoBehaviour
         SceneManager.LoadScene(2);
     }
     public void QuitGame(){
+        PlayerPrefs.SetInt("BeenInGame", 0);
         Application.Quit();
+    }
+    public void Level1Clicked(){
+        SceneManager.LoadScene(3);
+    }
+    public void Level2Clicked(){
+        SceneManager.LoadScene(4);
+    }
+    public void Level3Clicked(){
+        SceneManager.LoadScene(5);
+    }
+    public void Level4Clicked(){
+        
+    }
+    public void Level5Clicked(){
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(6);
     }
 }
